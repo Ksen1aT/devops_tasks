@@ -86,24 +86,31 @@ curl http://localhost/           # <h1>Hello World</h1>
 ## Скриншоты по этапам выполнения
 
 - Второй запуск плэйбука (идемпотентность)
+
 ![Ansible second run](docs/ansible-idempotency.png)
 
 - terraform state list
+
 ![Terraform state list](docs/terraform-state-list.png)
 
 - terraform show
+
 ![Terraform show](docs/terraform-show.png)
 
 - Результат работы скрипта
+
 ![monitor.sh docker](docs/monitor-docker.png)
 
 - Проверка скрипта на неизвестном сервисе
+
 ![monitor.sh unknown_file](docs/monitor-unknown.png)
 
 - docker-compose ps
+
 ![docker compose ps](docs/compose-ps.png)
 
-- curl http://<IP>
+- curl http://IP
+
 ![curl Hello World](docs/compose-curl.png)
 
 
